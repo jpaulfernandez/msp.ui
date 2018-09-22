@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_overdue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Dashboard" transform="translate(-230.000000, -462.000000)">
+            <g id="wiedget" transform="translate(22.000000, 181.000000)">
+                <g id="Group" transform="translate(193.000000, 194.000000)">
+                    <g id="ic_overdue" transform="translate(12.000000, 85.000000)">
+                        <g id="Icon-24px">
+                            <path d="M11.25,13.75 L8.75,13.75 L8.75,16.25 L11.25,16.25 L11.25,13.75 L11.25,13.75 Z M16.25,13.75 L13.75,13.75 L13.75,16.25 L16.25,16.25 L16.25,13.75 L16.25,13.75 Z M21.25,13.75 L18.75,13.75 L18.75,16.25 L21.25,16.25 L21.25,13.75 L21.25,13.75 Z M23.75,5 L22.5,5 L22.5,2.5 L20,2.5 L20,5 L10,5 L10,2.5 L7.5,2.5 L7.5,5 L6.25,5 C4.8625,5 3.7625,6.125 3.7625,7.5 L3.75,25 C3.75,26.375 4.8625,27.5 6.25,27.5 L23.75,27.5 C25.125,27.5 26.25,26.375 26.25,25 L26.25,7.5 C26.25,6.125 25.125,5 23.75,5 L23.75,5 Z M23.75,25 L6.25,25 L6.25,11.25 L23.75,11.25 L23.75,25 L23.75,25 Z" id="Shape" fill="#E74C3C"></path>
+                            <polygon id="Shape" points="0 0 30 0 30 30 0 30"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

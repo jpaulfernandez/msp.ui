@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_confirm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 18 0 18 18 0 18"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06_2_TransactionManagement_Create" transform="translate(-811.000000, -428.000000)">
+            <g id="content" transform="translate(147.000000, 183.000000)">
+                <g id="button" transform="translate(650.000000, 235.000000)">
+                    <g id="Group-7" transform="translate(13.000000, 9.000000)">
+                        <g id="ic_confirm">
+                            <g id="Icon-24px">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="a"></g>
+                                <path d="M9,1.5 C4.875,1.5 1.5,4.875 1.5,9 C1.5,13.125 4.875,16.5 9,16.5 C13.125,16.5 16.5,13.125 16.5,9 C16.5,4.875 13.125,1.5 9,1.5 L9,1.5 Z M12.75,13.5 L5.25,13.5 L5.25,12 L12.75,12 L12.75,13.5 L12.75,13.5 Z M7.725,10.5 L5.25,8.025 L6.3,6.975 L7.725,8.4 L11.7,4.425 L12.75,5.475 L7.725,10.5 L7.725,10.5 Z" id="Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

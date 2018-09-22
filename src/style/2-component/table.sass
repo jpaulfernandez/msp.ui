@@ -1,0 +1,71 @@
+@import '../1-base/_all-colors.sass'
+
+// Table
+.table-striped tbody tr:nth-of-type(odd) 
+  background-color: #ffffff
+
+.table-striped tbody tr:nth-of-type(even) 
+  background-color: rgba(0, 0, 0, 0.05)
+
+// .table-hover tbody tr:hover
+//   background-color: rgba(0, 0, 0, 0.075)
+
+.td--small
+  width: 15%
+
+.modal-td--small
+  width: 25%
+
+.th--small
+  width: 50px
+
+.th__image
+  width: 30px
+  height: 30px
+  border-radius: 50%
+
+.th__text
+  color: #9ba7b3
+  font-weight: 400
+  font-size: 12px
+  text-transform: uppercase
+
+thead .th--no-border
+  border-top: none
+
+tbody .td--no-border
+  border-top: none
+
+// Pagination
+.page-link
+  color: #6c757d
+  border: none
+
+.page-link:hover
+  color: #212529
+  background-color: #f8f9fa
+
+.page-item.active .page-link
+  border: none
+  background-color: transparent
+  color: #000
+
+// Status
+.status
+  text-transform: uppercase
+  margin: 0
+
+.status--red
+  color: $red
+
+.status--orange
+  color: $orange
+
+.status--violet
+  color: $violet
+
+.status--blue
+  color: $info
+
+.status--green
+  color: $green

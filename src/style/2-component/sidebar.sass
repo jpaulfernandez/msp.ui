@@ -1,0 +1,79 @@
+@import '../1-base/_all-colors.sass'
+  
+#wrapper
+  &.toggled
+    padding-left: 200px
+
+#sidebar-wrapper
+  z-index: 1000
+  position: fixed
+  left: 200px
+  width: 0
+  height: 100%
+  margin-left: -200px
+  overflow-y: auto
+  background: $dark-green
+
+#wrapper.toggled #sidebar-wrapper
+  width: 200px
+
+#page-content-wrapper
+  width: 100%
+  position: absolute
+  padding: 15px
+  top: 76px
+
+#wrapper.toggled #page-content-wrapper
+  position: absolute
+  margin-right: 250px
+
+/* Sidebar Styles*/
+.sidebar-nav
+  position: absolute
+  top: 76px
+  width: 250px
+  margin: 0
+  padding: 0
+  list-style: none
+  
+  li
+    a.sidebar__item
+      text-indent: 40px
+      line-height: 40px
+      font-size: 14px
+      display: block
+      text-decoration: none
+      color: #fff
+      text-align: left
+      &:hover
+        text-decoration: none
+        color: #fff
+        background: rgba(255, 255, 255, 0.2)
+      &:active, &:focus
+        text-decoration: none
+  > .sidebar-brand
+    margin-left: 30px
+    padding: 20px 0 15px 0
+    font-size: 12px
+    font-weight: 300
+    text-transform: uppercase
+    .sidebar__title
+      color: #fff
+      letter-spacing: 1.75px
+      text-align: left
+
+@media (min-width: 768px)
+  #wrapper
+    padding-left: 0
+    &.toggled
+      padding-left: 200px
+  #sidebar-wrapper
+    width: 0
+  #wrapper.toggled #sidebar-wrapper
+    width: 200px
+  #page-content-wrapper
+    padding: 20px
+    position: relative
+  #wrapper.toggled #page-content-wrapper
+    position: relative
+    margin-right: 0

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_add_a_photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="18 18 0 18 0 0 18 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_2_ProductManagement_Create" transform="translate(-199.000000, -343.000000)">
+            <g id="content" transform="translate(151.000000, 121.000000)">
+                <g id="button" transform="translate(33.000000, 213.000000)">
+                    <g id="ic_add_a_photo" transform="translate(15.000000, 9.000000)">
+                        <g id="Icon-24px">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="a"></g>
+                            <path d="M2.25,3 L2.25,0.75 L3.75,0.75 L3.75,3 L6,3 L6,4.5 L3.75,4.5 L3.75,6.75 L2.25,6.75 L2.25,4.5 L0,4.5 L0,3 L2.25,3 L2.25,3 Z M4.5,7.5 L4.5,5.25 L6.75,5.25 L6.75,3 L12,3 L13.3725,4.5 L15.75,4.5 C16.575,4.5 17.25,5.175 17.25,6 L17.25,15 C17.25,15.825 16.575,16.5 15.75,16.5 L3.75,16.5 C2.925,16.5 2.25,15.825 2.25,15 L2.25,7.5 L4.5,7.5 L4.5,7.5 Z M9.75,14.25 C11.82,14.25 13.5,12.57 13.5,10.5 C13.5,8.43 11.82,6.75 9.75,6.75 C7.68,6.75 6,8.43 6,10.5 C6,12.57 7.68,14.25 9.75,14.25 L9.75,14.25 Z M7.35,10.5 C7.35,11.8275 8.4225,12.9 9.75,12.9 C11.0775,12.9 12.15,11.8275 12.15,10.5 C12.15,9.1725 11.0775,8.1 9.75,8.1 C8.4225,8.1 7.35,9.1725 7.35,10.5 L7.35,10.5 Z" id="Shape" fill="#3498DB" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

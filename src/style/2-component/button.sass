@@ -1,0 +1,73 @@
+@import '../1-base/_all-colors.sass'
+  
+.btn
+  padding: 0.375rem 1.2rem
+  font-size: 0.90rem
+  font-weight: 500
+  border-radius: 0.20rem
+
+.btn__icon
+  margin-right: 0.3rem
+
+  &--blue
+    color: $info
+
+.btn__text
+  margin-right: 1.25rem
+    
+.btn__text--capitalize
+  text-transform: uppercase
+
+.btn--shadowed
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+.btn--transparent
+  background-color: transparent
+  border: none
+
+.btn-light:hover
+  background-color: transparent
+
+.btn-outline-info
+  border-width: 0.15rem
+
+.btn--orange
+  background-color: $orange
+  color: white
+
+  &:hover
+    background-color: $orange-hovered
+
+.btn--no-decoration
+  &:hover
+    text-decoration: none
+
+// Card disguised as button
+.card--dark-blue-theme
+  border: 2px solid $info
+  color: $info
+  cursor: pointer
+  transition: all 150ms ease-in-out
+
+.card--dark-blue-theme:hover
+  color: white
+  background: $info
+
+.card-body__button-title
+  font-weight: 500
+  color: $info
+  font-size: 26px
+  display: block
+
+// OVERWRITE
+.btn-info
+  background: $info
+  border-color: $info
+
+.btn-outline-info
+  border-color: $info
+  color: $info
+
+.btn-outline-info:hover
+  background-color: $info
+  border-color: $info

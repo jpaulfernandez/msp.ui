@@ -1,0 +1,144 @@
+@import '../1-base/_all-colors.sass'
+
+@mixin resets()
+  margin: 0
+  padding: 0
+
+.card
+  transition: all 150ms ease-in-out
+
+.card--is-hovered:hover
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  
+.card--blue
+  border-top-color: $info
+  border-top-width: 3px
+
+.card--violet
+  border-top-color: $violet
+  border-top-width: 3px
+
+.card--yellow
+  border-top-color: $yellow
+  border-top-width: 3px
+
+.card--turquoise
+  border-top-color: $turquoise
+  border-top-width: 3px
+
+.card--dark-blue
+  border-top-color: $dark-blue
+  border-top-width: 3px
+
+.card-body__title
+  font-size: 14px
+  font-weight: 300
+  @include resets()
+
+.card-body__icon
+  display: flex
+  align-items: center
+  justify-content: center
+
+.card-body__text
+  font-size: 40px;
+  font-weight: 500
+  @include resets()
+
+.card-body__subtext
+  font-size: 11px
+  font-weight: 300
+  @include resets()
+
+.hr--reset
+  @include resets()
+
+.card-body__text--red,
+.card-body__icon--red
+  color: $red
+
+.card-body__text--green,
+.card-body__icon--green
+  color: $green
+
+// Uploaded documents
+.card--darken
+  background: #F8F8F8
+
+.card-body__image
+  width: 75px
+  height: 75px
+
+.card-body--de-pad
+  padding: 0.5rem
+
+.card-body__upload-text
+  @include resets()
+  font-weight: 500
+  font-size: 16px
+
+.card-body__upload-subtext
+  @include resets()
+  font-size: 12px
+
+// Product Management Cards
+.card--dark-green-theme 
+  border: 2px solid $dark-green
+  color: $dark-green
+  cursor: pointer
+  transition: all 150ms ease-in-out
+
+.card--dark-green-theme:hover
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  background: $dark-green
+  color: white
+  
+.card-body__management-title
+  font-weight: 700
+  color: $dark-green
+  font-size: 20px
+  display: block
+
+.card-body__management-subtitle--light
+  @include resets()
+  font-weight: 300
+  font-size: 10px
+  text-transform: uppercase
+
+.card-body__management-subtitle--regular
+  font-weight: 500
+  font-size: 18px
+
+.card.card--no-outline
+  border: none
+
+
+// DROPDOWN
+.product__dropdown
+  padding: 0 5px
+
+.product__dropdown-menu
+  background: $dark-green
+  border: none
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+.product__dropdown-item
+  background: $dark-green
+  color: white
+
+.product__dropdown-item:hover, .product__dropdown-item:focus
+  background-color: #6dbc91
+  color: white
+
+.product__dropdown-toggle
+  font-size: 18px
+  padding: 10px
+
+.product__dropdown-toggle::after
+  display: none
+
+@media (max-width: 768px)
+  .card-body--centered
+    text-align: center
+  .card-body__icon
+    justify-content: center
